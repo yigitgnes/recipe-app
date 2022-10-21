@@ -11,6 +11,7 @@ import {HeaderComponent} from "./header/header.component";
 import { RecipeComponent } from './recipe/recipe.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import {FormsModule} from "@angular/forms";
+import {DropdownDirective} from "./shared/dropdown.directive";
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import {FormsModule} from "@angular/forms";
     HeaderComponent,
     RecipeComponent,
     HomePageComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
